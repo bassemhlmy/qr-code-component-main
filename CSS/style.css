@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(213, 225, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.qr-card {
+  width: 34rem;
+  padding: 1.6rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-text {
+  font-family: "Outfit", sans-serif;
+  padding: 2.8rem;
+  line-height: 1.2;
+}
+
+.qr-card h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 2rem;
+}
+
+.qr-card p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
